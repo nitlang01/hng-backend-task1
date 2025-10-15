@@ -25,3 +25,10 @@ uvicorn main:app --reload
 Note:
 -This task was built as part of the HNG Backend Internship (Stage 1).
 -It demonstrates how to integrate FastAPI with an external API using requests, and how to return a clean JSON response.
+
+
+HNG Backend Task 1 – My FastAPI /me Endpoint
+
+Name: Anita Olang
+Email: anitaolang005@gmail.com
+Track: Backend (Python / FastAPI)
