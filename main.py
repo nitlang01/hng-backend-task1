@@ -7,6 +7,10 @@ import os
 
 app = FastAPI()
 
+print("USER_EMAIL:", os.getenv("USER_EMAIL"))
+print("USER_NAME:", os.getenv("USER_NAME"))
+print("USER_STACK:", os.getenv("USER_STACK"))
+
 CATFACT_URL = "https://catfact.ninja/fact"
 CATFACT_TIMEOUT = float(os.getenv("CATFACT_TIMEOUT", "5"))
 FALLBACK_FACT = os.getenv("FALLBACK_FACT", "No cat facts available right now. Try again later.")
