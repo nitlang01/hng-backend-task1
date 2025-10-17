@@ -12,8 +12,8 @@ CATFACT_URL = "https://catfact.ninja/fact"
 CATFACT_TIMEOUT = float(os.getenv("CATFACT_TIMEOUT", "5"))
 FALLBACK_FACT = os.getenv("FALLBACK_FACT", "No cat facts available right now. Try again later.")
 
-USER_EMAIL = os.getenv("USER_EMAIL", "anitaolang005@gmail.com")
-USER_NAME = os.getenv("USER_NAME", "Anita Olang")
+USER_EMAIL = os.getenv("USER_EMAIL", "your-email@example.com")
+USER_NAME = os.getenv("USER_NAME", "Your Full Name")
 USER_STACK = os.getenv("USER_STACK", "Python/FastAPI")
 
 @app.get("/me")
