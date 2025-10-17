@@ -2,10 +2,8 @@ from fastapi import FastAPI
 from fastapi.responses import JSONResponse
 import httpx
 from datetime import datetime, timezone
-from dotenv import load_dotenv
 import os
 
-load_dotenv()
 
 app = FastAPI()
 
